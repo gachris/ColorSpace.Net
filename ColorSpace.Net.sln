@@ -1,13 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.10.35027.167
+VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C2E1D00-3D82-4EF6-8314-634E7622EC27}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorSpace.Net", "src\ColorSpace.Net\ColorSpace.Net.csproj", "{716A2024-8B2B-4935-98CD-F722F3446256}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorSpace.Net.Tests", "src\ColorSpace.Net.Tests\ColorSpace.Net.Tests.csproj", "{413FCC97-343A-4009-A241-D85549CCF4A2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{716A2024-8B2B-4935-98CD-F722F3446256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716A2024-8B2B-4935-98CD-F722F3446256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716A2024-8B2B-4935-98CD-F722F3446256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716A2024-8B2B-4935-98CD-F722F3446256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413FCC97-343A-4009-A241-D85549CCF4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413FCC97-343A-4009-A241-D85549CCF4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413FCC97-343A-4009-A241-D85549CCF4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413FCC97-343A-4009-A241-D85549CCF4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EE1A56B2-8801-45F4-B561-C21FC7C6AEF0}
+		SolutionGuid = {23B2ED63-85D8-48C1-A1EE-A77557B750E4}
 	EndGlobalSection
 EndGlobal

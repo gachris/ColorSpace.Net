@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup Label="Project Configuration">
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup Label="Package Configuration">
+		<Version>1.0.0</Version>
+		<Authors>gachris</Authors>
+		<RepositoryType>git</RepositoryType>
+		<Copyright>Copyright © 2024.</Copyright>
+		<PackageId>$(MSBuildProjectName)</PackageId>
+		<Product>$(MSBuildProjectName)</Product>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/gachris/ColorSpaceLib.Net</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/gachris/ColorSpaceLib.Net/tree/master/src/$(MSBuildProjectName)</PackageProjectUrl>
+		<PackageOutputPath>$(MSBuildThisFileDirectory).packages\$(Configuration)</PackageOutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Label="Sign Assembly">
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)SignAssemblyKey.snk</AssemblyOriginatorKeyFile>
+	</PropertyGroup>
+
+</Project>
