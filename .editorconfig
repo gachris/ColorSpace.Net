@@ -40,6 +40,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true:warning
 csharp_style_prefer_not_pattern = true:warning
 csharp_style_prefer_extended_property_pattern = true:warning
 csharp_style_conditional_delegate_call = true:warning
+csharp_style_prefer_primary_constructors = true:suggestion
 [*.{cs,vb}]
 #### Naming styles ####
 
@@ -110,3 +111,4 @@ dotnet_style_predefined_type_for_locals_parameters_members = true:silent
 dotnet_style_predefined_type_for_member_access = true:silent
 dotnet_style_allow_statement_immediately_after_block_experimental = true:silent
 dotnet_style_allow_multiple_blank_lines_experimental = true:silent
+dotnet_style_prefer_collection_expression = when_types_loosely_match:suggestion
