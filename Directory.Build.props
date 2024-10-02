@@ -15,8 +15,8 @@
 		<PackageId>$(MSBuildProjectName)</PackageId>
 		<Product>$(MSBuildProjectName)</Product>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/gachris/ColorSpaceLib.Net</RepositoryUrl>
-		<PackageProjectUrl>https://github.com/gachris/ColorSpaceLib.Net/tree/master/src/$(MSBuildProjectName)</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/gachris/ColorSpace.Net</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/gachris/ColorSpace.Net/tree/master/src/$(MSBuildProjectName)</PackageProjectUrl>
 		<PackageOutputPath>$(MSBuildThisFileDirectory).packages\$(Configuration)</PackageOutputPath>
 	</PropertyGroup>
 
